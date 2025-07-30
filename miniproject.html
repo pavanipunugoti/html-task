@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Portal</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Student Registration Portal</h1>
+        <p>This is a simple webpage built with only HTML elements.</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <p>
+            <a href="#about">About</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#form">Register</a> |
+            <a href="#contact">Contact</a>
+        </p>
+    </nav>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Portal</h2>
+        <p>This portal is used to register students for various online courses. You can find the list of available courses and submit your details for enrollment.</p>
+    </section>
+
+    <!-- Image Section -->
+    <section>
+        <h2>Our Instistute</h2>
+        <p> 10000 Coders is a tech education platform focused on providing immersive and hands-on training to help individuals launch careers in software development and related fields. They aim to transform beginners into skilled engineers and designers, regardless of their background</p>
+        <img src="https://www.10000coders.in/_next/image?url=%2F10k_brand_icon.png&w=640&q=75" alt="Our Insititute">
+    </section>
+
+    <!-- Courses List using Table -->
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <table border="1">
+            <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Mode</th>
+            </tr>
+            <tr>
+                <td>Python Programming</td>
+                <td>3 Months</td>
+                <td>Online</td>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>6 Months</td>
+                <td>Offline</td>
+            </tr>
+            <tr>
+                <td>Data Science</td>
+                <td>4 Months</td>
+                <td>Online</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="form">
+        <h2>Student Registration Form</h2>
+        <form action="./response.html">
+        <label for="">Name:</label>
+        <input type="name"><br>
+       <label for="">Password:</label>
+       <input type="password" name="pwd"><br>
+       <label for="">Mail:</label>
+       <input type="email" required><br>
+       <label for="">DOB:</label>
+       <input type="date"><br>
+       <label for="">Mob Num:</label>
+       <input type="tel"><br>
+       <label for="">Gender:</label>
+       <input type="radio" name="gender">Male
+       <input type="radio" name="gender">Female<br>
+       <label for="">Hobbies:</label>
+       <input type="checkbox">Coding
+       <input type="checkbox">Playing
+       <input type="checkbox">Reading<br>
+       <label for="">Tell me about ur self:</label>
+       <input type="result"><br>
+       <input type="submit" value="register">
+    </form>
+
+    <!-- Contact & Footer -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@studentsportal.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>© 2025 Student Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
